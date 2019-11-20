@@ -1,0 +1,6 @@
+language: swift
+os: osx
+osx_image: xcode11.1
+xcode_project: TravisTest.xcodeproj # path to your xcodeproj folder
+xcode_scheme: TravisTest
+xcode_destination: platform=iOS Simulator,OS=13.1,name=iPhone 11
